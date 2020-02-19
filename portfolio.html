@@ -1,205 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- Materialize Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- Materialize Icons -->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
 
-    <!-- Compiled and minified Materialize CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection"/>
+		<!-- Compiled and minified Materialize CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+			media="screen,projection"
+		/>
 
-    <!-- Materialize Template CSS -->
-    <link rel="stylesheet" href="assets/css/template.css" media="screen,projection"/>
+		<!-- Materialize Template CSS -->
+		<link
+			rel="stylesheet"
+			href="assets/css/template.css"
+			media="screen,projection"
+		/>
 
-    <!-- My CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+		<!-- My CSS -->
+		<link rel="stylesheet" href="assets/css/style.css" />
 
-    <title>Colin Green - Portfolio</title>
-</head>
-<body>
+		<title>Colin Green - Portfolio</title>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="light-blue lighten-1" role="navigation">
+			<div class="nav-wrapper container">
+				<a id="logo-container" href="index.html" class="brand-logo"
+					>Colin Green</a
+				>
+				<ul class="right hide-on-med-and-down">
+					<li class="active"><a href="#">Portfolio</a></li>
+				</ul>
 
-    <!-- Navbar -->
-        <nav class="light-blue lighten-1" role="navigation">
-                <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Colin Green</a>
-                  <ul class="right hide-on-med-and-down">
-                    <li class="active"><a href="#">Portfolio</a></li>
-                  </ul>
-            
-                  <ul id="nav-mobile" class="sidenav">
-                    <li class="active"><a href="#">Portfolio</a></li>
-                  </ul>
-                  <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                    <li><a href="index.html">About Me</a></li>
-                  </ul>
-            
-                  <ul id="nav-mobile" class="sidenav">
-                    <li><a href="index.html">About Me</a></li>
-                  </ul>
-                  <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                </div>
-              </nav>
-              <div class="section no-pad-bot" id="index-banner">
-                <div class="container">
-                  <br><br>
-                  <h1 class="header center green-text">Portfolio</h1>
-                  <br><br>
-                </div>
-              </div>
-            
-            
-              <div class="container">
-                <div class="section">
-            
-                  <!--   Icon Section   -->
-                  <div class="row">
-                    <div class="col s12 m6">
-                        <div class="card large">
-                            <div class="card-image">
-                                <img src="assets/images/Crystals.jpg" alt="Crystal Game">
-                                <span class="card-title white-text">Crystal Collector Game</span>
-                            </div>
-                            <div class="card-content">
-                                <p>Try to match the magic number by clicking on the different crystals.</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="https://colin-green.github.io/Unit-4-Game/" target="_blank">Crystal Collector</a>
-                            </div>
-                        </div>
-                        <div class="card large">
-                                <div class="card-image">
-                                    <img src="assets/images/Hangman.jpg" alt="Crystal Game">
-                                    <span class="card-title white-text">Hangman</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>A classic game of hangman. Guess the word in the allotted amount of guesses!</p>
-                                </div>
-                                <div class="card-action">
-                                    <a href="https://colin-green.github.io/Hangman-Game/" target="_blank">Hangman</a>
-                                </div>
-                            </div>
-                            <div class="card large">
-                                    <div class="card-image">
-                                        <img src="assets/images/Super-Smash-Bros-meele.jpg" alt="Crystal Game">
-                                        <span class="card-title white-text">Super Smash Bros. Trivia</span>
-                                    </div>
-                                    <div class="card-content">
-                                        <p>A trivia game about the Super Smash Bros. series! Do you know your stuff?</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="https://colin-green.github.io/TriviaGame/" target="_blank">Trivia Game</a>
-                                    </div>
-                                </div>
-                                <div class="card large">
-                                        <div class="card-image">
-                                            <img src="assets/images/Beach.jpg" alt="Crystal Game">
-                                            <span class="card-title white-text">TraveLite</span>
-                                        </div>
-                                        <div class="card-content">
-                                            <p>My first group project is a website that lets you plan your next vacation. It takes in the user's input of origin city and destination city, and returns monthly flight ticket info as well as the current weather and images of the destination.</p>
-                                        </div>
-                                        <div class="card-action">
-                                            <a href="https://usafowose.github.io/Project-1/" target="_blank">TraveLite</a>
-                                        </div>
-                                    </div>
-                    </div>
-            
-                    <div class="col s12 m6">
-                            <div class="card large">
-                                    <div class="card-image">
-                                        <img src="assets/images/Crystal Ball.jpg" alt="Psychic Guessing Game">
-                                        <span class="card-title white-text">Psychic Guessing Game</span>
-                                    </div>
-                                    <div class="card-content">
-                                        <p>Try to guess the secret letter by using the keyboard.</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="https://colin-green.github.io/Psychic-Game/" target="_blank">Psychic Game</a>
-                                    </div>
-                                </div>
-                                <div class="card large">
-                                        <div class="card-image">
-                                            <img src="assets/images/giphy.gif" alt="Psychic Guessing Game">
-                                            <span class="card-title white-text">GIF Finder</span>
-                                        </div>
-                                        <div class="card-content">
-                                            <p>Search for some GIFs! Click on each individual GIF to start and stop the animation.</p>
-                                        </div>
-                                        <div class="card-action">
-                                            <a href="https://colin-green.github.io/Giphy-API-Homework/" target="_blank">GIF Finder</a>
-                                        </div>
-                                    </div>
-                                    <div class="card large">
-                                            <div class="card-image">
-                                                <img src="assets/images/Train.jpg" alt="Psychic Guessing Game">
-                                                <span class="card-title white-text">Train Scheduler</span>
-                                            </div>
-                                            <div class="card-content">
-                                                <p>A train scheduler that uses firebase to store the train information. Try adding some trains!</p>
-                                            </div>
-                                            <div class="card-action">
-                                                <a href="https://colin-green.github.io/Train-Scheduler/" target="_blank">Train Scheduler</a>
-                                            </div>
-                                        </div>
-                                        <div class="card large">
-                                                <div class="card-image">
-                                                    <img src="assets/images/WoW.jpg" alt="Psychic Guessing Game">
-                                                    <span class="card-title white-text">WoW DPS/DPM Calculator</span>
-                                                </div>
-                                                <div class="card-content">
-                                                    <p>Takes in the user's input of spell data to calculate the damage (or healing) per second and damage (or healing) per mana. Click on the button to try it out!</p>
-                                                </div>
-                                                <div class="card-action">
-                                                    <a href="https://colin-green.github.io/WoW-DPS-DPM/" target="_blank">WoW DPS/DPM Calculator</a>
-                                                </div>
-                                            </div>
-                    </div>
-                  </div>
-            
-                </div>
-                <br><br>
-              </div>
-            
-              <footer class="page-footer green">
-                <div class="container">
-                  <div class="row">
-                    <div class="col l3 s12">
-                            <h5 class="white-text">Contact Me</h5>
-                        </div>
-                        <div class="col l3 s12">
-                            <h5><a href="https://www.linkedin.com/in/colin-green-931b08161/" class="white-text" target="_blank">LinkedIn Profile</a></h5>
-                            <h5><a href="#" class="white-text" target="_blank">Résumé</a></h5>
-                        </div>
-                    <div class="col l3 s12">
-                      <h5 class="white-text">Email</h5>
-                      <ul>
-                        <li><a class="white-text" href="mailto:colin.green@knights.ucf.edu">colin.green@knights.ucf.edu</a></li>
-                      </ul>
-                    </div>
-                    <div class="col l3 s12">
-                      <h5 class="white-text">Phone Number</h5>
-                      <ul>
-                        <li>(407) 463-9063</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="footer-copyright">
-                  <div class="container">
-                  Made by <a class="green-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-                  </div>
-                </div>
-              </footer>
-    
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!-- Compiled and minified Materialize JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- Materialize init.js -->
-    <script src="assets/javascript/init.js"></script>
+				<ul id="nav-mobile" class="sidenav">
+					<li class="active"><a href="#">Portfolio</a></li>
+				</ul>
+				<a href="#" data-target="nav-mobile" class="sidenav-trigger"
+					><i class="material-icons">menu</i></a
+				>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html">About Me</a></li>
+				</ul>
 
-</body>
+				<ul id="nav-mobile" class="sidenav">
+					<li><a href="index.html">About Me</a></li>
+				</ul>
+				<a href="#" data-target="nav-mobile" class="sidenav-trigger"
+					><i class="material-icons">menu</i></a
+				>
+			</div>
+		</nav>
+		<div class="section no-pad-bot" id="index-banner">
+			<div class="container">
+				<br /><br />
+				<h1 class="header center green-text">Portfolio</h1>
+				<br /><br />
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="section">
+				<!--   Icon Section   -->
+				<div class="row">
+					<!-- Column 1 -->
+					<div class="col s12 m6">
+						<div class="card large">
+							<div class="card-image">
+								<img src="assets/images/LogoOne.png" alt="Kangaroo" />
+								<span class="card-title white-text">Kangaroo</span>
+							</div>
+							<div class="card-content">
+								<p>
+									MERN stack leasing app where leaseholders can make new
+									listings to lease out their place, and people looking for a
+									place to live can browse the listings and filter by location
+									and price.
+								</p>
+							</div>
+							<div class="card-action">
+								<a href="https://kangarooleasing.herokuapp.com/" target="_blank"
+									>Kangaroo</a
+								>
+							</div>
+						</div>
+						<div class="card large">
+							<div class="card-image">
+								<img src="assets/images/Friends.jpg" alt="Friend Finder" />
+								<span class="card-title white-text">Friend Finder</span>
+							</div>
+							<div class="card-content">
+								<p>
+									Take a quick survey to find new friends who are compatible
+									with you based on your answers!
+								</p>
+							</div>
+							<div class="card-action">
+								<a
+									href="https://friend-finder-cmg.herokuapp.com/"
+									target="_blank"
+									>Friend Finder</a
+								>
+							</div>
+						</div>
+						<div class="card large">
+							<div class="card-image">
+								<img src="assets/images/Siri.png" alt="LIRI Node App" />
+								<span class="card-title white-text">LIRI Node App</span>
+							</div>
+							<div class="card-content">
+								<p>
+									LIRI is your Language Interpretation & Recognition Interface.
+									It has 4 commands that allow users to get information on
+									artists, songs, and movies. See the README for details.
+								</p>
+							</div>
+							<div class="card-action">
+								<a
+									href="https://github.com/colin-green/LIRI-Node-App"
+									target="_blank"
+									>LIRI Node App</a
+								>
+							</div>
+						</div>
+						<div class="card large">
+							<div class="card-image">
+								<img
+									src="assets/images/Krusty_Krab_230b.png"
+									alt="Krusty Krab"
+								/>
+								<span class="card-title white-text">Krusty Krab Online</span>
+							</div>
+							<div class="card-content">
+								<p>
+									Online ordering storefront for everyone's favorite underwater
+									fast food joint.
+								</p>
+							</div>
+							<div class="card-action">
+								<a href="https://thekrustykrab.herokuapp.com/" target="_blank"
+									>Krusty Krab Online</a
+								>
+							</div>
+						</div>
+						<div class="card large">
+							<div class="card-image">
+								<img src="assets/images/Crystals.jpg" alt="Crystal Game" />
+								<span class="card-title white-text"
+									>Crystal Collector Game</span
+								>
+							</div>
+							<div class="card-content">
+								<p>
+									Try to match the magic number by clicking on the different
+									crystals.
+								</p>
+							</div>
+							<div class="card-action">
+								<a
+									href="https://colin-green.github.io/Unit-4-Game/"
+									target="_blank"
+									>Crystal Collector</a
+								>
+							</div>
+						</div>
+						<div class="card large">
+							<div class="card-image">
+								<img src="assets/images/Hangman.jpg" alt="Hangman" />
+								<span class="card-title white-text">Hangman</span>
+							</div>
+							<div class="card-content">
+								<p>
+									A classic game of hangman. Guess the word in the allotted
+									amount of guesses!
+								</p>
+							</div>
+							<div class="card-action">
+								<a
+									href="https://colin-green.github.io/Hangman-Game/"
+									target="_blank"
+									>Hangman</a
+								>
+							</div>
+						</div>
+						<div class="card large">
+							<div class="card-image">
+								<img
+									src="assets/images/Super-Smash-Bros-meele.jpg"
+									alt="SSBM Trivia"
+								/>
+								<span class="card-title white-text"
+									>Super Smash Bros. Trivia</span
+								>
+							</div>
+							<div class="card-content">
+								<p>
+									A trivia game about the Super Smash Bros. series! Do you know
+									your stuff?
+								</p>
+							</div>
+							<div class="card-action">
+								<a
+									href="https://colin-green.github.io/TriviaGame/"
+									target="_blank"
+									>Trivia Game</a
+								>
+							</div>
+						</div>
+						<div class="card large">
+							<div class="card-image">
+								<img src="assets/images/Beach.jpg" alt="TraveLite" />
+								<span class="card-title white-text">TraveLite</span>
+							</div>
+							<div class="card-content">
+								<p>
+									My first group project is a website that lets you plan your
+									next vacation. It takes in the user's input of origin city and
+									destination city, and returns monthly flight ticket info as
+									well as the current weather and images of the destination.
+								</p>
+							</div>
+							<div class="card-action">
+								<a href="https://usafowose.github.io/Project-1/" target="_blank"
+									>TraveLite</a
+								>
+							</div>
+						</div>
+					</div>
+					<!-- Column 2 -->
+					<div class="col s12 m6">
+						<div class="card large">
+							<div class="card-image">
+								<img src="assets/images/Bamazon.png_512" alt="Bamazon" />
+								<span class="card-title white-text">Bamazon</span>
+							</div>
+							<div class="card-content">
+								<p>
+									A command line-based online storefront where you can buy
+									items, whose quantity then goes down in a database.
+								</p>
+							</div>
+							<div class="card-action">
+								<a href="https://github.com/colin-green/Bamazon" target="_blank"
+									>Bamazon</a
+								>
+							</div>
+						</div>
+						<div class="card large">
+							<div class="card-image">
+								<img
+									src="assets/images/t-mcdonalds-Hamburger.jpg"
+									alt="Eat-Da-Burger"
+								/>
+								<span class="card-title white-text">Eat Da Burger!</span>
+							</div>
+							<div class="card-content">
+								<p>
+									Add your own burgers that you want to eat, then eat them! Your
+									entries go into a database and whether or not they have been
+									eaten also gets updated.
+								</p>
+							</div>
+							<div class="card-action">
+								<a
+									href="https://eat-da-burger-cmg.herokuapp.com/"
+									target="_blank"
+									>Eat Da Burger</a
+								>
+							</div>
+						</div>
+						<div class="card large">
+							<div class="card-image">
+								<img src="assets/images/click.png" alt="Clicky Game" />
+								<span class="card-title white-text">React Clicky Game</span>
+							</div>
+							<div class="card-content">
+								<p>
+									React-based game where you must click on pictures that you
+									have not yet clicked on before (the order is randomized with
+									each click).
+								</p>
+							</div>
+							<div class="card-action">
+								<a
+									href="https://github.com/colin-green/Clicky-Game"
+									target="_blank"
+									>React Clicky Game</a
+								>
+							</div>
+						</div>
+						<div class="card large">
+							<div class="card-image">
+								<img
+									src="assets/images/Crystal Ball.jpg"
+									alt="Psychic Guessing Game"
+								/>
+								<span class="card-title white-text">Psychic Guessing Game</span>
+							</div>
+							<div class="card-content">
+								<p>Try to guess the secret letter by using the keyboard.</p>
+							</div>
+							<div class="card-action">
+								<a
+									href="https://colin-green.github.io/Psychic-Game/"
+									target="_blank"
+									>Psychic Game</a
+								>
+							</div>
+						</div>
+						<div class="card large">
+							<div class="card-image">
+								<img
+									src="assets/images/giphy.gif"
+									alt="Psychic Guessing Game"
+								/>
+								<span class="card-title white-text">GIF Finder</span>
+							</div>
+							<div class="card-content">
+								<p>
+									Search for some GIFs! Click on each individual GIF to start
+									and stop the animation.
+								</p>
+							</div>
+							<div class="card-action">
+								<a
+									href="https://colin-green.github.io/Giphy-API-Homework/"
+									target="_blank"
+									>GIF Finder</a
+								>
+							</div>
+						</div>
+						<div class="card large">
+							<div class="card-image">
+								<img
+									src="assets/images/Train.jpg"
+									alt="Psychic Guessing Game"
+								/>
+								<span class="card-title white-text">Train Scheduler</span>
+							</div>
+							<div class="card-content">
+								<p>
+									A train scheduler that uses firebase to store the train
+									information. Try adding some trains!
+								</p>
+							</div>
+							<div class="card-action">
+								<a
+									href="https://colin-green.github.io/Train-Scheduler/"
+									target="_blank"
+									>Train Scheduler</a
+								>
+							</div>
+						</div>
+						<div class="card large">
+							<div class="card-image">
+								<img src="assets/images/WoW.jpg" alt="Psychic Guessing Game" />
+								<span class="card-title white-text"
+									>WoW DPS/DPM Calculator</span
+								>
+							</div>
+							<div class="card-content">
+								<p>
+									Takes in the user's input of spell data to calculate the
+									damage (or healing) per second and damage (or healing) per
+									mana. Click on the button to try it out!
+								</p>
+							</div>
+							<div class="card-action">
+								<a
+									href="https://colin-green.github.io/WoW-DPS-DPM/"
+									target="_blank"
+									>WoW DPS/DPM Calculator</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br /><br />
+		</div>
+
+		<footer class="page-footer green">
+			<div class="container">
+				<div class="row">
+					<div class="col l3 s12">
+						<h5 class="white-text">Contact Me</h5>
+					</div>
+					<div class="col l3 s12">
+						<h5>
+							<a
+								href="https://www.linkedin.com/in/colin-green-931b08161/"
+								class="white-text"
+								target="_blank"
+								>LinkedIn Profile</a
+							>
+						</h5>
+						<h5>
+							<a
+								href="https://docs.google.com/document/d/1H9RCv9hdQH03MWzcNd1xf4tuQAqqF4QeJN5ldH72L0A"
+								class="white-text"
+								target="_blank"
+								>Résumé</a
+							>
+						</h5>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Email</h5>
+						<ul>
+							<li>
+								<a class="white-text" href="mailto:cgreen72593@gmail.com"
+									>cgreen72593@gmail.com</a
+								>
+							</li>
+						</ul>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Phone Number</h5>
+						<ul>
+							<li>(407) 463-9063</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					Made by
+					<a class="green-text text-lighten-3" href="http://materializecss.com"
+						>Materialize</a
+					>
+				</div>
+			</div>
+		</footer>
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<!-- Compiled and minified Materialize JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<!-- Materialize init.js -->
+		<script src="assets/javascript/init.js"></script>
+	</body>
 </html>
